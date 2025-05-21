@@ -7,6 +7,6 @@ Vivian Yu
 
 4) 
 - Properly size images - the images being loaded are larger than the size they actually display to users. This might cause users to waste cellular data if they are on their phones
-- Add a <meta name="viewport"> tag with width or initial-scale to optimize for mobile screens and remove a 300ms input delay (which is implemented in mobile browsers to account for double-tap inputs)
+- Add a `<meta name="viewport">` tag with `width` or `initial-scale` to optimize for mobile screens and remove a 300ms input delay (which is implemented in mobile browsers to account for double-tap inputs)
 - Reduce unused JavaScript - there is a script whose loading can be deferred until it is needed.
 
